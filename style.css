@@ -23,33 +23,21 @@ svg {
 
 :root {
   --primary-offWhite: #f6f4eb;
-  /* -------------- Light Theme -------------- */
-  --color-text-light: #333332;
-  --color-primary-light: #c3edc0;
-  --color-secondary-light: #435b66;
-  --color-green-light: #7ad0ac;
-  --color-blue-light: #8395cd;
-  /* -------------- Dark Theme -------------- */
+  /* -------------- Dark Theme (default) -------------- */
+  --color-text: #f6f4eb;
+  --color-background: #8395cd;
+  --color-green: #f6f4eb;
+  --color-secondary: #f6f4eb;
+  --color-blue: #f6f4eb;
+  --color-circle: #435b66;
   --color-text-dark: #f6f4eb;
   --color-primary-dark: #8395cd;
+  --color-secondary-light: #435b66;
 }
 
-.light-theme {
-  --color-text: var(--color-text-light);
-  --color-background: var(--color-primary-light);
-  --color-green: var(--color-green-light);
-  --color-secondary: var(--color-secondary-light);
-  --color-blue: var(--color-blue-light);
-  --color-circle: var(--primary-offWhite);
-}
-
-.dark-theme {
-  --color-text: var(--color-text-dark);
-  --color-background: var(--color-primary-dark);
-  --color-green: var(--color-text-dark);
-  --color-secondary: var(--color-text-dark);
-  --color-blue: var(--color-text-dark);
-  --color-circle: var(--color-secondary-light);
+html, body {
+  background-color: var(--color-background);
+  color: var(--color-text);
 }
 
 /* -------------- Experience -------------- */
@@ -352,61 +340,7 @@ a {
   }
 }
 
-/* -------------- Toggle bar -------------- */
 
-.toggle-bar {
-  position: fixed;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  opacity: 0;
-  top: 48px;
-  right: 48px;
-  z-index: 999999999;
-}
-
-.sun-wrapper,
-.moon-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  color: var(--color-text);
-}
-
-.toggle-button {
-  cursor: pointer;
-  position: relative;
-  width: 56px;
-  height: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-secondary);
-  border-radius: 999px;
-  margin: 0px 16px;
-  border: none;
-  box-shadow: rgba(0, 0, 0, 0.5) -1.95px 1.95px 2.6px;
-}
-
-.toggle-circle {
-  position: absolute;
-  left: 6px;
-  border-radius: 50%;
-  width: 19px;
-  height: 19px;
-  background-color: var(--color-circle);
-  transition: all 0.2s ease-in-out;
-}
-
-.toggle-button:hover .toggle-circle {
-  transform: scale(0.85);
-}
-
-.slide {
-  left: 28px;
-}
 
 /* -------------- Section formatting -------------- */
 
