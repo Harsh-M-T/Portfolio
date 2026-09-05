@@ -32,6 +32,14 @@ svg {
   /* -------------- Dark Theme -------------- */
   --color-text-dark: #f6f4eb;
   --color-primary-dark: #8395cd;
+
+  /* -------------- Default (Dark) -------------- */
+  --color-text: var(--color-text-dark);
+  --color-background: var(--color-primary-dark);
+  --color-green: var(--color-text-dark);
+  --color-secondary: var(--color-text-dark);
+  --color-blue: var(--color-text-dark);
+  --color-circle: var(--color-secondary-light);
 }
 
 .light-theme {
