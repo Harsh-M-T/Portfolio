@@ -1,0 +1,56 @@
+Harsh Mani Tripathi
+Ghaziabad, UP | harshmanitripathi08@gmail.com | LinkedIn: Harsh Mani Tripathi | GitHub: Harsh-M-T
+Education
+Dr BR Ambedkar National Institute of Technology, Jalandhar Aug 2023 – 2027
+B.Tech in Electronics and Communication Engineering, CGPA: 8.66/10 Jalandhar, India
+Achievements
+Competitive Programming (LeetCode): Guardian rating, peak 2202 (top ∼1% globally) – View Profile
+Competitive Programming (Codeforces): Expert rating, peak 1631 – View Profile
+Google’s The Big Code 2026: Ranked Top 1500 among a national pool of participants in Google’s flagship coding competition.
+Nebula Nexus Hackathon 2025: 1st Runner-Up, Best Tech – built and shipped a working prototype under a competitive
+24-hour deadline.
+Freelance Delivery: Engaged as a Freelance Developer for ServiceNow, delivering client-facing software work independently.
+Experience
+Accenture
+Custom Software Engineering Associate
+• BuiltaproductionFastAPIbackendforanAI-poweredWorkdaymonitoringsystem–pollingRESTAPIsonascheduleandusing
+a fine-tuned Ollama LLM to auto-diagnose failures, surfaced through a Human-in-the-Loop dashboard for one-click fixes.
+• Implemented APScheduler-driven job orchestration, OAuth 2.0 token auto-refresh, and SQLite-backed event persistence resilient to
+continuous scheduled load – hands-on experience wiring backend infrastructure directly to an LLM inference layer.
+• Tech Stack: Python (FastAPI), React.js (Vite), SQLite (SQLAlchemy), Ollama (Llama 3 / Mistral), APScheduler, REST APIs,
+OAuth 2.0
+FocusMaster [GitHub]
+AI & Backend Developer Intern
+• Shipped a browser extension with a rules engine (scheduled, duration-based, manual modes) to block distracting sites, backed by a
+companion website (React.js, Node.js/Express, MongoDB) for schedule management and session analytics.
+• Integrated OpenAI’s Whisper API to parse voice commands into structured backend actions, reducing manual configuration
+during active sessions.
+• Tech Stack: Python, OpenAI Whisper API, React.js, Node.js/Express.js, MongoDB, REST APIs
+Projects
+EKA – Offline Enterprise RAG Assistant | GitHub
+• Built a production-oriented Retrieval-Augmented Generation backend that answers employee questions from internal documents,
+served through a FastAPI REST API and running entirely offline with no external API keys.
+• Implemented a hybrid retrieval pipeline combining FAISS dense vector search with BM25 sparse keyword search to improve answer
+relevance over single-method retrieval.
+Invoice Ingestion Agent | GitHub
+• Automated end-to-end invoice processing with a locally hosted pipeline (n8n workflow orchestration, Ollama/Llama 3.2:3b for
+extraction, NocoDB for structured storage), removing manual data entry – directly applicable to Copilot-style operational-workflow
+automation.
+Type-Short – Multilingual Text Summarizer | GitHub
+• Built a Flask web app serving a T5 transformer for text summarization, integrated with the Google Translate API to deliver
+summaries in a user-selected language.
+• Hands-on experience serving a transformer model behind a Python backend with multilingual output – directly relevant to scaling
+Gen AI features like TTS across languages.
+FileFare – Full-Stack Digital Marketplace | GitHub
+• Architected a full-stack marketplace (React 19/Vite, Node.js/Express, MongoDB) across a 5-model data layer (Users, Files,
+Purchases, Reviews, Withdrawals), with role-based dashboards, catalog search/filtering, and ratings.
+• Implemented Stripe Payment Intents, JWT + bcrypt auth, and secure download tokens; hardened the REST API with Helmet,
+express-rate-limit, and CORS.
+Technical Skills
+Languages: Python, Java, C/C++, JavaScript, SQL
+Backend & APIs: FastAPI, Flask, Django, Node.js/Express, RESTful API design, OAuth 2.0, microservices fundamentals
+Databases: PostgreSQL, MongoDB, SQLite, MySQL, NocoDB
+AI/ML & LLMs: Ollama (Llama 3 / Mistral), PyTorch, TensorFlow, Hugging Face Transformers, T5, FAISS, Scikit-learn, workflow
+automation (n8n)
+Systems & Tools: UDP/TCP sockets, protocol design, AES-GCM/HMAC, multithreading, Docker, Git, GitHub, Azure, Postman,
+Jupyter
