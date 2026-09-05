@@ -14,7 +14,7 @@
 
 A 3D portfolio website built with Three.js, featuring custom Blender models, GLSL shaders, and GSAP scroll animations.
 
-**Live Demo:** [https://oscar-threejs.vercel.app/](https://portfolio-hash-bot.vercel.app/)
+**Live Demo:** [My portfolio](https://portfolio-hash-bot.vercel.app/)
 
 ---
 
