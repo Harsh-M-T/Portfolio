@@ -41,6 +41,10 @@ svg {
   --color-secondary: var(--color-secondary-light);
   --color-blue: var(--color-blue-light);
   --color-circle: var(--primary-offWhite);
+  /* Gradient backgrounds for a richer light mode */
+  --gradient-section: linear-gradient(135deg, #e0f7fa 0%, #ffffff 50%, #fce4ec 100%);
+  --gradient-hero: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  --gradient-button: linear-gradient(90deg, #4fc3f7 0%, #29b6f6 100%);
 }
 
 .dark-theme {
@@ -422,6 +426,17 @@ a {
   margin: 0;
   background-color: var(--color-background);
   overflow: hidden;
+}
+
+/* Light‑mode gradient backgrounds */
+.light-theme .section {
+  background: var(--gradient-section);
+}
+.light-theme .hero {
+  background: var(--gradient-hero);
+}
+.light-theme .section-button {
+  background: var(--gradient-button);
 }
 
 .left {
