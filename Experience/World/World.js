@@ -23,6 +23,13 @@ export default class World extends EventEmitter {
       this.floor = new Floor();
       this.room = new Room();
       // this.controls = new Controls();
+
+      // Apply whatever theme is currently active (set by Theme.js at startup)
+      // now that the room/environment actually exist. Theme's own initial
+      // "switch" emit fires before World is even constructed, so it's missed —
+      // this catches the world up to the correct starting state.
+      this.switchTheme(this.theme.theme);
+
       this.emit("worldReady");
 
       // console.log("Room created");
