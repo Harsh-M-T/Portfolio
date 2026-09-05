@@ -27,12 +27,17 @@
     ></script>
     <title>Harsh Mani Tripathi - THREE.js Portfolio</title>
     <script>
-      // Force dark theme before any paint
+      // Force dark theme by default; only respect an explicit prior "light" choice
       (function () {
         const saved = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (!saved || saved === 'dark' || prefersDark) {
+        if (saved === 'light') {
+          document.documentElement.classList.add('light-theme');
+          document.documentElement.classList.remove('dark-theme');
+          document.body.classList.add('light-theme');
+          document.body.classList.remove('dark-theme');
+        } else {
           document.documentElement.classList.add('dark-theme');
+          document.documentElement.classList.remove('light-theme');
           document.body.classList.add('dark-theme');
           document.body.classList.remove('light-theme');
           localStorage.setItem('theme', 'dark');
@@ -277,7 +282,7 @@
               <li class="icon linkedin">
                 <span class="tooltip">Linkedin</span>
                 <span
-                  ><a
+                  >
                     href="https://www.linkedin.com/in/harsh-mani-tripathi-b681b228a/"
                     target="_blank"
                     ><i class="fa-brands fa-linkedin"></i></a
@@ -291,8 +296,6 @@
                 ></span>
               </li>
             </ul>
-
-            
           </div>
         </section>
       </div>
