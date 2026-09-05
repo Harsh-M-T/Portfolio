@@ -34,7 +34,7 @@ svg {
   --color-primary-dark: #8395cd;
 
   /* -------------- Default (Dark) -------------- */
-  --color-text: var(--color-text-dark);
+  --color-text:#14213d;;
   --color-background: var(--color-primary-dark);
   --color-green: var(--color-text-dark);
   --color-secondary: var(--color-text-dark);
@@ -56,7 +56,7 @@ svg {
 }
 
 .dark-theme {
-  --color-text: var(--color-text-dark);
+  --color-text: #14213d;;
   --color-background: var(--color-primary-dark);
   --color-green: var(--color-text-dark);
   --color-secondary: var(--color-text-dark);
